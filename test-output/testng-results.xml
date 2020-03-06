@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name=" HRM Application Test Automation Test" duration-ms="165724" started-at="2020-03-06T04:29:30Z" finished-at="2020-03-06T04:32:16Z">
+    <groups>
+    </groups>
+    <test name="  HRM Application TestCases" duration-ms="165724" started-at="2020-03-06T04:29:30Z" finished-at="2020-03-06T04:32:16Z">
+      <class name="com.hrm.test.OpenPIMPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrm.test.OpenPIMPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="22742" started-at="2020-03-06T04:30:27Z" finished-at="2020-03-06T04:30:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateOpenPIMPageTitleTest()[pri:1, instance:com.hrm.test.OpenPIMPageTest@6d4b1c02]" name="validateOpenPIMPageTitleTest" duration-ms="19" started-at="2020-03-06T04:30:50Z" finished-at="2020-03-06T04:30:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOpenPIMPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrm.test.OpenPIMPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="224" started-at="2020-03-06T04:30:50Z" finished-at="2020-03-06T04:30:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrm.test.OpenPIMPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="24974" started-at="2020-03-06T04:31:46Z" finished-at="2020-03-06T04:32:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickTest()[pri:2, instance:com.hrm.test.OpenPIMPageTest@6d4b1c02]" name="clickTest" duration-ms="4618" started-at="2020-03-06T04:32:11Z" finished-at="2020-03-06T04:32:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrm.test.OpenPIMPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="244" started-at="2020-03-06T04:32:16Z" finished-at="2020-03-06T04:32:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hrm.test.OpenPIMPageTest -->
+      <class name="com.hrm.test.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrm.test.LoginPageTest@7cd62f43]" name="setUp" is-config="true" duration-ms="15631" started-at="2020-03-06T04:30:11Z" finished-at="2020-03-06T04:30:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidateLoginPageTest()[pri:1, instance:com.hrm.test.LoginPageTest@7cd62f43]" name="ValidateLoginPageTest" duration-ms="24" started-at="2020-03-06T04:30:27Z" finished-at="2020-03-06T04:30:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLoginPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrm.test.LoginPageTest@7cd62f43]" name="tearDown" is-config="true" duration-ms="199" started-at="2020-03-06T04:30:27Z" finished-at="2020-03-06T04:30:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrm.test.LoginPageTest@7cd62f43]" name="setUp" is-config="true" duration-ms="19123" started-at="2020-03-06T04:31:21Z" finished-at="2020-03-06T04:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCredentials()[pri:2, instance:com.hrm.test.LoginPageTest@7cd62f43]" name="testCredentials" duration-ms="5489" started-at="2020-03-06T04:31:41Z" finished-at="2020-03-06T04:31:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrm.test.LoginPageTest@7cd62f43]" name="tearDown" is-config="true" duration-ms="175" started-at="2020-03-06T04:31:46Z" finished-at="2020-03-06T04:31:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hrm.test.LoginPageTest -->
+      <class name="com.hrm.test.AddEmployeePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrm.test.AddEmployeePageTest@6093dd95]" name="setUp" is-config="true" duration-ms="32173" started-at="2020-03-06T04:29:38Z" finished-at="2020-03-06T04:30:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="fillData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrm.test.AddEmployeePageTest@6093dd95]" name="fillData" duration-ms="1537" started-at="2020-03-06T04:30:10Z" data-provider="data" finished-at="2020-03-06T04:30:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Luuuu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Laaaaa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[la@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[la@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[la@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrm.test.AddEmployeePageTest@6093dd95]" name="tearDown" is-config="true" duration-ms="251" started-at="2020-03-06T04:30:11Z" finished-at="2020-03-06T04:30:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrm.test.AddEmployeePageTest@6093dd95]" name="setUp" is-config="true" duration-ms="30944" started-at="2020-03-06T04:30:50Z" finished-at="2020-03-06T04:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateAddEmployeePageTest()[pri:1, instance:com.hrm.test.AddEmployeePageTest@6093dd95]" name="validateAddEmployeePageTest" duration-ms="20" started-at="2020-03-06T04:31:21Z" finished-at="2020-03-06T04:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddEmployeePageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrm.test.AddEmployeePageTest@6093dd95]" name="tearDown" is-config="true" duration-ms="178" started-at="2020-03-06T04:31:21Z" finished-at="2020-03-06T04:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hrm.test.AddEmployeePageTest -->
+    </test> <!--   HRM Application TestCases -->
+  </suite> <!--  HRM Application Test Automation Test -->
+</testng-results>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ HRM Application Test Automation Test]">
+  <listeners>
+    <listener class-name="com.hrm.generics.CustomListener"/>
+  </listeners>
+  <test thread-count="5" name="  HRM Application TestCases(failed)">
+    <classes>
+      <class name="com.hrm.test.AddEmployeePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validateAddEmployeePageTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.hrm.test.AddEmployeePageTest -->
+      <class name="com.hrm.test.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="ValidateLoginPageTest"/>
+        </methods>
+      </class> <!-- com.hrm.test.LoginPageTest -->
+    </classes>
+  </test> <!--   HRM Application TestCases(failed) -->
+</suite> <!-- Failed suite [ HRM Application Test Automation Test] -->
